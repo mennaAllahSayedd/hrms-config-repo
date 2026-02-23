@@ -3,6 +3,6 @@ server:
   
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/reporting_db
+    url: jdbc:postgresql://localhost:5432/hrms
     username: postgres
     password: 1234
