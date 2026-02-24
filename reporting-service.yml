@@ -1,11 +1,13 @@
-sping:  
+spring:
   application:
-      name: training-service
+    name: training-service
+
   datasource:
     url: jdbc:postgresql://localhost:5432/hrms
     username: postgres
     password: 1234
     driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -13,5 +15,6 @@ sping:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
 server:
   port: 8084
