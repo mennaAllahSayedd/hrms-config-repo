@@ -3,7 +3,7 @@ spring:
     name: reporting-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/hrms
+    url: jdbc:postgresql://postgres:5432/hrms
     username: postgres
     password: 1234
     driver-class-name: org.postgresql.Driver
